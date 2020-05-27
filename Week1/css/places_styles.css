@@ -1,12 +1,12 @@
 h1 {
   color: orange;
-  text-align: center;
+  text-align: left;
   font-family: helvetica
 }
 
 h2 {
   font-style: bold;
-  text-align: center;
+  text-align: left;
   color: rgba(0, 195, 255, 0.329);
 }
 h3 {
@@ -16,11 +16,13 @@ h3 {
 p {
   font-family: helvetica;
   color: rgba(71, 4, 49, 0.308)
+
 }
 
 img {
   max-width: 100%;
   height: auto;
+  position: center;
 }
 
 ul {
