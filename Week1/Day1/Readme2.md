@@ -1,4 +1,4 @@
-# My fisrt Webpage
+# My first Webpage
 
 ## Contributors:
 * Lizzie Van Hook
