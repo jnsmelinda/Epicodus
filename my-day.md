@@ -15,6 +15,7 @@
 * dinner
 * movie
 * family time
+
 | genre  	| title      	|
 |--------	|------------	|
 | sci-fi 	| Armageddon 	|
