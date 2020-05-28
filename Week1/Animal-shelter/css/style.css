@@ -8,7 +8,7 @@ h1 {
 
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
   height: 25%;
   padding: 10px;
 }
@@ -18,9 +18,39 @@ h1 {
   float: center;
 }
 
+#roisin {
+  width: 100%;
+  height: 100%;
+}
+
 #column-B {
   background-color:rgb(145, 122, 211);
   float: center
+}
+
+#blue {
+  width: 100%;
+  height: 100%;
+}
+
+#column-C {
+  background-color:rgb(117, 185, 134);
+  float: center
+}
+
+#kaa {
+  width: 100%;
+  height: 100%;
+}
+
+#column-D {
+  background-color:rgb(117, 185, 134);
+  float: center
+}
+
+#archie {
+  width: 100%;
+  height: 100%;
 }
 
 .row:after {
