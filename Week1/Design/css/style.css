@@ -1,17 +1,28 @@
-.header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
-}
-
 h1 {
   color: blue;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .column {
-  float: center;
+  float: left;
   width: 50%;
   padding: 10px;
   height: 300px;
 }
 
+#column-A {
+  background-color:rgb(170, 128, 128);
+}
+
+#column-B {
+  background-color:rgb(145, 122, 211);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
