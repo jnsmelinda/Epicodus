@@ -3,7 +3,10 @@
 My journey to learn to code
 
 ## Usage
-You can reach theis page at: https://jnsmelinda.github.io/Epicodus/Week1/Blog/
+You can see the result here: https://jnsmelinda.github.io/Epicodus/Week1/Blog/
+
+## New material
+Css: float, margin, div, span
 
 ## Contributing
 tsomers@yandex.com
