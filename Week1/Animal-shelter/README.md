@@ -13,5 +13,8 @@ tsomers@yandex.com
 * html
 * github, git, git pages
 
+## link
+https://jnsmelinda.github.io/Epicodus/Week1/Animal-shelter/
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
