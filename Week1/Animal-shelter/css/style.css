@@ -6,6 +6,11 @@ h1 {
   box-sizing: border-box;
 }
 
+ul li{
+  padding: 10px;
+  color: rgb(70, 29, 109);
+}
+
 .column {
   float: left;
   width: 25%;

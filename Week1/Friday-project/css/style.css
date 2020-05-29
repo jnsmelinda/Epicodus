@@ -1,5 +1,26 @@
 h1 {
-  color: blue;
+  color: rgb(251, 255, 1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  size: 40px;
+}
+
+h2 {
+  color: rgb(251, 255, 1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  size: 30px;
+}
+
+h3 {
+  color: rgb(251, 255, 1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  size: 20px;
+}
+
+p {
+  size: 15px;
+  color: rgb(130, 199, 134);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -10,10 +31,12 @@ h1 {
   float: center;
   width: 25%;
   height: 25%;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .row {
-  background-color: coral;
+  background-color: rgba(190, 93, 58, 0.397);
   text-align: center;
 }
 
@@ -24,44 +47,23 @@ h1 {
   padding: 10px;
 }
 
-#column-A {
-  background-color:rgb(170, 128, 128);
-  float: center;
-}
 
 #roisin {
   width: 100%;
   height: 100%;
 }
 
-#column-B {
-  background-color:rgb(145, 122, 211);
+#column-A {
   float: center
 }
 
-#blue {
-  width: 100%;
-  height: 100%;
+#column-B {
+  float: center
 }
+
 
 #column-C {
-  background-color:rgb(117, 185, 134);
   float: center
-}
-
-#kaa {
-  width: 100%;
-  height: 100%;
-}
-
-#column-D {
-  background-color:rgb(191, 199, 120);
-  float: center
-}
-
-#archie {
-  width: 100%;
-  height: 100%;
 }
 
 .row:after {
