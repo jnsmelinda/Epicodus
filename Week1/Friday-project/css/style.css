@@ -1,0 +1,87 @@
+h1 {
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#profile_picture {
+  float: center;
+  width: 25%;
+  height: 25%;
+}
+
+.row {
+  background-color: coral;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 10px;
+}
+
+#column-A {
+  background-color:rgb(170, 128, 128);
+  float: center;
+}
+
+#roisin {
+  width: 100%;
+  height: 100%;
+}
+
+#column-B {
+  background-color:rgb(145, 122, 211);
+  float: center
+}
+
+#blue {
+  width: 100%;
+  height: 100%;
+}
+
+#column-C {
+  background-color:rgb(117, 185, 134);
+  float: center
+}
+
+#kaa {
+  width: 100%;
+  height: 100%;
+}
+
+#column-D {
+  background-color:rgb(191, 199, 120);
+  float: center
+}
+
+#archie {
+  width: 100%;
+  height: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 300px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 700px;
+    float: left;
+    padding: 20px;
+  }
+}
