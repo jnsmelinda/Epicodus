@@ -1,7 +1,7 @@
 h1 {
   color: rgb(251, 255, 1);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  size: 40px;
+  font-size: 50px;
 }
 
 #profile_picture {
@@ -15,17 +15,17 @@ h1 {
 h2 {
   color: rgb(251, 255, 1);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  size: 30px;
+  font-size: 30px;
 }
 
 h3 {
   color: rgb(251, 255, 1);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  size: 20px;
+  font-size: 20px;
 }
 
 p {
-  size: 5px;
+  font-size: 25px;
   color: rgb(130, 199, 134);
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,21 +41,32 @@ p {
 }
 
 .column {
+  float: left;
   width: 33.33%;
-  height: 33.33%;
   padding: 10px;
+  height: 300px;
+}
+
+p.column {
+  font-size: 5px;
+  color: rgb(130, 199, 134);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #column-A {
-  float: center
+  float: center;
+  width: 30%
 }
 
 #column-B {
-  float: center
+  float: center;
+  width: 40%;
 }
 
 #column-C {
-  float: center
+  float: center;
+  width: 30%
 }
 
 .row:after {
@@ -67,8 +78,11 @@ p {
 ol.v {
   list-style-type: circle;
   text-align: center;
-  list-style-position: inside
-
+  list-style-position: inside;
+  size: 3px;
+  color: rgb(130, 199, 134);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
@@ -76,18 +90,18 @@ footer {
   size: 10px;
 }
 
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   .column {
     width: 300px;
     float: left;
     padding: 20px;
   }
-}
+} */
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .column {
     width: 700px;
     float: left;
     padding: 20px;
   }
-}
+} */
